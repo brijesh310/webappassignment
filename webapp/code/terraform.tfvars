@@ -1,0 +1,12 @@
+account_number      = "xxxxxxxxxxxx"                         
+role                = "arn:aws:iam::xxxxxxxxxxxx:role/admin" 
+env_designator      = "prod"
+terraform_bucket    = "test-terraform-states-xxxxxxxxxxxx"
+terraform_base_key  = "webapp/base/prod/terraform.tfstate"
+terraform_alb_key   = "webapp/alb/prod/terraform.tfstate"
+webapp_domain        = "codeanalyzer.webapp..test"
+webapp_ami_name      = "CIS Red Hat Enterprise Linux 8 Benchmark * Level 1*" 
+webapp_sg_ssh        = ["0.0.0.0/0"]
+webapp_public_key    = "/webapp/webapp/keys/public"
+webapp_instance_type = "t3.xlarge"
+webapp_volume_size   = 256
